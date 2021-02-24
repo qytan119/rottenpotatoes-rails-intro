@@ -1,0 +1,2 @@
+https://github.com/qytan119/rottenpotatoes-rails-intro
+https://morning-gorge-38740.herokuapp.com/
