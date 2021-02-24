@@ -26,8 +26,8 @@ class MoviesController < ApplicationController
     end
     
     @movies = Movie.with_ratings(@checked_ratings.keys).order(ordering)
-    # session[:ratings] = @checked_ratings
-    # session[:sort] = sort
+    session[:sort] = sort 
+    session[:ratings] = @checked_ratings
       
   end
 
